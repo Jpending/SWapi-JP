@@ -72,7 +72,6 @@ export default class SearchBar extends React.Component {
           <QueryBox />
           <span>I'm looking for a:</span>
           <Filter />
-          <button type='submit'>Reset </button>
           <button type='submit' onClick={() => this.handleSubmit()}>
             Search
           </button>
